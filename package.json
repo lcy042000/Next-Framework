@@ -1,0 +1,42 @@
+{
+  "name": "next_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:es": "eslint .",
+    "lint:es:fix": "eslint . --fix",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "prettier": "@titicaca/prettier-config-triple",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@titicaca/eslint-config-triple": "^5.2.1",
+    "@titicaca/prettier-config-triple": "^1.2.1",
+    "@types/node": "^22.3.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.1.0"
+  }
+}
