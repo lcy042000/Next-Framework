@@ -81,3 +81,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/react,nextjs,windows
 *storybook.log
+
+/--fix
+!src/
+
